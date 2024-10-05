@@ -1,0 +1,12 @@
+/* Custom styles for Slick Slider dots */
+  .slick-dots li button:before {
+    color :grey ;
+    font-size: 10px;
+  }
+  .slick-dots li {
+    margin:0 1px; 
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: rgb(76, 76, 232); /* Change color of the active dot */
+  }

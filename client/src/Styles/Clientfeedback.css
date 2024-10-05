@@ -1,0 +1,53 @@
+.card-client {
+    border-radius: 30px !important;
+    width: 410px !important;
+    height: 240px !important;
+}
+
+.client{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Media Queries for Additional Tweaks */
+@media (max-width: 1024px) {
+    .card-client {
+        width: 18rem !important;
+        height: 18rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-client {
+        width: 300px !important;
+        height: 242px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-client {
+        width: 100% !important;
+        height: auto !important;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+/* Clientfeedback.css */
+.card-client {
+    max-width: 100%; /* Ensure the card is responsive */
+    margin: 0 auto; /* Center the card */
+  }
+
+  /* card slider */
+  .slick-slide>div{
+    margin: 0 10px;
+  }
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+@media (min-width : 321px) and (max-width: 374px) {
+
+  .appointment {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .contact1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .email{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .container{
+    gap: 20px;
+  }
+}

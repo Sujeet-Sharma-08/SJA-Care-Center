@@ -1,0 +1,34 @@
+.bg-color {
+  border-radius: 30px;
+}
+
+.image {
+  height: 420px;
+}
+
+.rectangle {
+  height: 111px;
+  width: 348px;
+  border: 3px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #7edbe8, #b42329) border-box;
+}
+
+@media (max-width: 767px) {
+  .image {
+    width: 128px;
+    height: 256px;
+  }
+
+  .rectangle {
+    height: 64px;
+    width: 192px;
+  }
+}
+
+.why-us{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

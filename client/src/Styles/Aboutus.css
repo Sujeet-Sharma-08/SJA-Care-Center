@@ -1,0 +1,61 @@
+.heading {
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.font-color {
+    color: orangered !important;
+}
+
+.button-style {
+    background-color: orangered !important;
+    color: white;
+    border-radius: 30px !important;
+    border: none;
+    cursor: pointer;
+    height: 67px !important;
+    width: 253px !important;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+
+.button-style:hover {
+    background-color: orangered !important;
+}
+
+/* Media Queries for Additional Tweaks */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .button-style {
+        width: 253px !important;
+        height: 60px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 28px;
+    }
+
+    .button-style {
+        width: 100%;
+        height: 56px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .button-style {
+        width: 100%;
+        height: 50px !important;
+        font-size: 16px;
+    }
+}
